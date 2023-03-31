@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "jsx": "preserve",
+    "module": "commonjs",
+    "baseUrl": "./src",
+    "paths": {
+      "@apps/*": ["apps/*"],
+      "@config/*": ["config/*"],
+      "@controllers/*": ["controllers/*"],
+      "@interfaces/*": ["interfaces/*"],
+      "@jobs/*": ["jobs/*"],
+      "@middlewares/*": ["middlewares/*"],
+      "@models/*": ["models/*"],
+      "@routers/*": ["routers/*"],
+      "@shared/*": ["shared/*"],
+      "@constants/*": ["utilities/constants/*"],
+      "@helpers/*": ["utilities/helpers/*"],
+      "@validators/*": ["utilities/validators/*"]
+    },
+    "allowJs": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  }
+}

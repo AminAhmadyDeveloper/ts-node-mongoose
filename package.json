@@ -1,0 +1,41 @@
+{
+  "name": "ts-node-mongoose",
+  "version": "1.0.0",
+  "description": "A Node Typrescript Boilerplate With Mongo DB",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.ts",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AminAhmadyDeveloper/ts-node-mongoose.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Nodemon",
+    "Exprerss",
+    "Mongo",
+    "DB",
+    "Mongoose"
+  ],
+  "author": "Amin Ahmady",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/AminAhmadyDeveloper/ts-node-mongoose/issues"
+  },
+  "homepage": "https://github.com/AminAhmadyDeveloper/ts-node-mongoose#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
